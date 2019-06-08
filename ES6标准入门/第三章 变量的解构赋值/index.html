@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible"
+        content="ie=edge">
+  <title>Document</title>
+</head>
+
+<body>
+
+</body>
+<script src="https://cdn.bootcss.com/babel-core/6.1.19/browser.js"></script>
+<script>
+  // 解构赋值
+  //let [a, b, c] = [1, 2, 3]
+
+
+  // 默认赋值
+  //let [a = 1, b = 2] = [, 3]
+
+  //let { foo:barz , bar} = {foo:'a',bar:'b'}
+
+  //字符窜赋值
+  // const [a, b, c] = 'hello'
+  // let {
+  //   length
+  // } = 'hello'
+  // //console.log(length) // b a 如果foo则报错
+  // function add(x = 1, y = 2) {
+  //   console.log(x + y)
+  // }
+  // add()
+
+  // json赋值
+  /*let obj = {
+  name:'shanks',
+  age:12
+}
+let {name,age} = obj
+console.log(name,age)*/
+  // map
+  let map = new Map()
+  map.set('first', 'hello')
+  console.log(map instanceof Object)
+
+</script>
+
+</html>
